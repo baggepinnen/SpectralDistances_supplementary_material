@@ -25,15 +25,15 @@ julia> include("kbarycenters_birds.jl")
 
 ## Datasets
 The code assumes that the datasets provided under the links below exist in subfolders to this folder, named
-- `./birds`
+- `./birds` Available here [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
 - `./ships`
 
-### Links
-- [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
+
 
 ## Scripts
 - `cumulative_spectra.jl` reproduces figure 2.
 - `varying_parameters.jl` reproduces figures 4-5.
+- `lowrankmodels.jl` reproduces figure 7.
 - `interpolation.jl` reproduces figures 8-9.
 - `ship_detection.jl` reproduces figures 10-11.
 - `kbarycenters_birds.jl` reproduces figure 12.
