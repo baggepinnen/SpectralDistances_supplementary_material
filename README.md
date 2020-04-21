@@ -30,10 +30,10 @@ The code assumes that the datasets provided under the links below exist in subfo
 
 ### Links
 - [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
-- Ship data (coming up)
 
 ## Scripts
-- `kbarycenters_birds.jl` reproduces the clustering of the bird data.
 - `cumulative_spectra.jl` reproduces figure 2.
-- `varying_parameters.jl` reproduces figure 4-5.
-- `interpolation.jl` reproduces figure 8-9.
+- `varying_parameters.jl` reproduces figures 4-5.
+- `interpolation.jl` reproduces figures 8-9.
+- `ship_detection.jl` reproduces figures 10-11.
+- `kbarycenters_birds.jl` reproduces figure 12.
