@@ -33,3 +33,4 @@ The code assumes that the datasets provided under the links below exist in subfo
 ## Scripts
 - `kbarycenters_birds.jl` reproduces the clustering of the bird data.
 - `cumulative_spectra.jl` reproduces figure 2.
+- `varying_parameters.jl` reproduces figure 4-5.
