@@ -6,9 +6,9 @@ with the accompanying software package [SpectralDistances.jl](https://github.com
 The code is written in Julia, https://julialang.org/
 
 ## Installation instructions
-1. Install julia v1.4 or later ([instructions](https://julialang.org/downloads/)
+1. Install julia v1.4 or later ([instructions](https://julialang.org/downloads/))
 2. To ensure that the same environment is instantiated as was used to create the figures in the paper, use the Manifest.toml file checked into this repository. Natigate to the folder of this repo, start julia, then run
-```
+```julia
 julia> using Pkg
 julia> pkg"activate ."
 julia> pkg"instantiate -m"
@@ -29,3 +29,7 @@ The code assumes that the datasets provided under the links below exist in subfo
 ### Links
 - [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
 - Ship data (coming up)
+
+## Scripts
+- `kbarycenters_birds.jl` reproduces the clustering of the bird data.
+- `cumulative_spectra.jl` reproduces figure 2.
