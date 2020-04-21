@@ -1,6 +1,4 @@
 using Plots, LPVSpectral, DSP, SpectralDistances, ControlSystems, TotalLeastSquares, Random, WAV, Optim
-using Base.Iterators: product
-using IterTools: subsets
 
 Continuous = SpectralDistances.Continuous
 default(grid = false)
