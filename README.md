@@ -37,4 +37,4 @@ The code assumes that the datasets provided under the links below exist in subfo
 - `lowrankmodels.jl` reproduces figure 7.
 - `interpolation.jl` reproduces figures 8-9.
 - `ship_detection.jl` reproduces figures 10-11.
-- `kbarycenters_birds.jl` reproduces figure 12.
+- `kbarycenters_birds.jl` reproduces figure 12. This script requires the `birds` dataset listed above.
