@@ -1,4 +1,5 @@
 [deps]
+AudioClustering = "dbf13d8f-d36e-4250-8970-f3a99faba1a8"
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
 ControlSystems = "a6e380b2-a6ca-5380-bf3e-84a91bcd477e"
 MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
