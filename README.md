@@ -9,24 +9,25 @@ The code is written in Julia, https://julialang.org/
 
 ## Installation instructions
 1. Install julia v1.4 or later ([instructions](https://julialang.org/downloads/))
-2. To ensure that the same environment is instantiated as was used to create the figures in the paper, use the Manifest.toml file checked into this repository. Natigate to the folder of this repo, start julia, then run
+2. To ensure that the same environment is instantiated as was used to create the figures in the paper, use the Manifest.toml file checked into this repository. Navigate to the folder of this repo, start julia, then run
 ```julia
 julia> using Pkg
-julia> pkg"activate ."
-julia> pkg"instantiate -m"
+julia> pkg"activate ."      # Activate the current folder's environment
+julia> pkg"instantiate -m"  # Instantiate the environment, this installs all packages
 ```
 3. Examples can now be run by including the corresponding script. Example:
 ```julia
 julia> include("kbarycenters_birds.jl")
 ```
+Dpending on which backend is chosen for [Plots.jl](http://docs.juliaplots.org/latest/install/), you may only see the last plot produced by each script. For scripts that produce more than one plot, you may opt to execute individual blocks of code separately.
 
 
 
 
 ## Datasets
 The code assumes that the datasets provided under the links below exist in subfolders to this folder, named
-- `./birds` Available here [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
-- `./ships`
+- `./birds`: Available here [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
+- `./ships`: Included in this repo.
 
 
 
