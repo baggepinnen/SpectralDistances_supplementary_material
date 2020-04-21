@@ -10,4 +10,5 @@ This repository contains the code to generate the figures in the paper. The code
 
 
 ## Links to datasets
-coming up
+- [Birds data: 2.5GB train, 356 MB test. (google drive)](https://drive.google.com/open?id=1jMGMjj-KPJ8b4qoFo5WZqrOVr3sHzwDf)
+- Ship data (coming up)
